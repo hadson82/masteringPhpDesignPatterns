@@ -1,9 +1,11 @@
 <?php
 
-use App\AbstractFactory\SFToyFactory;
-use App\AbstractFactory\UKToyFactory;
+require_once __DIR__ . "/../../../vendor/autoload.php";
 
-require_once __DIR__."/../../vendor/autoload.php";
+
+use App\CreationalDesignPatterns\AbstractFactory\SFToyFactory;
+use App\CreationalDesignPatters\AbstractFactory\UKToyFactory;
+
 
 $sanFranciscoFactory = new SFToyFactory();
 var_dump($sanFranciscoFactory->makeMaze());

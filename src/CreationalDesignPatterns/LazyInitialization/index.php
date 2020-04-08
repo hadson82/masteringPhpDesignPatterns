@@ -3,7 +3,7 @@
 use App\LazyInitialization\BurgerLazyLoader;
 use App\LazyInitialization\Burger;
 
-require_once __DIR__."/../../vendor/autoload.php";
+require_once __DIR__ . "/../../vendor/autoload.php";
 
 
 $burger = BurgerLazyLoader::getBurger(true, true);

@@ -5,7 +5,7 @@ use App\Strategy\Cube;
 use App\Strategy\RaiseNumber;
 use App\Strategy\Square;
 
-require_once __DIR__."/../../vendor/autoload.php";
+require_once __DIR__ . "/../../vendor/autoload.php";
 
 
 if(isset($_GET['n'])){

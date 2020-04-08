@@ -1,7 +1,8 @@
 <?php
 
 
-namespace App\AbstractFactory\Toys;
+namespace App\CreationalDesignPatters\AbstractFactory\Toys;
+
 
 
 abstract class PuzzleToy extends Toy

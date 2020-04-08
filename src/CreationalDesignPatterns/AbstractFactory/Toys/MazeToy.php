@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\AbstractFactory\Toys;
+namespace App\CreationalDesignPatters\AbstractFactory\Toys;
 
 
 abstract class MazeToy extends Toy

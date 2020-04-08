@@ -1,10 +1,11 @@
 <?php
 
 
-namespace App\AbstractFactory\Toys;
+namespace App\CreationalDesignPatters\AbstractFactory\Toys;
 
 
-class SFMazeToy extends MazeToy
+
+class UKMazeToy extends MazeToy
 {
     private $size;
     private $pictureName;
@@ -12,7 +13,7 @@ class SFMazeToy extends MazeToy
     public function __construct()
     {
         $this->size = 9;
-        $this->pictureName = "San Francisco Maze";
+        $this->pictureName = "London Maze";
     }
 
     public function getSize(): int

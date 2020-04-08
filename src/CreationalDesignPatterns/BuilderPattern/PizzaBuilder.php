@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\BuilderPattern;
+namespace App\CreationalDesignPatterns\BuilderPattern;
 
 
 class PizzaBuilder

@@ -1,6 +1,7 @@
 <?php
 
-namespace App\AbstractFactory;
+namespace App\CreationalDesignPatters\AbstractFactory;
+
 
 interface ToyFactory
 {
