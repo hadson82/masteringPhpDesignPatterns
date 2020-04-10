@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Strategy;
+
+namespace App\BehavioralDesignPatterns\StrategyDesignPattern;
+
 
 class RaiseNumber
 {
-
 
     private $strategy;
 
